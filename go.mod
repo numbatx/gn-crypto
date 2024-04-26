@@ -3,10 +3,11 @@ module github.com/numbatx/gn-crypto
 go 1.20
 
 require (
+	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1
 	github.com/herumi/bls-go-binary v1.0.0
 	github.com/numbatx/gn-core v0.1.3
 	github.com/numbatx/gn-logger v0.0.5
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.0
 	golang.org/x/crypto v0.3.0
 )
 
@@ -20,5 +21,5 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	golang.org/x/sys v0.2.0 // indirect
 	google.golang.org/protobuf v1.26.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
